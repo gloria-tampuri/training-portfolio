@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*, *::before, *::after {
+box-sizing: border-box;
+}
+* {
+ margin: 0;
+}
+html, body {
+height: 100%;
+font-family: 'Open Sans', sans-serif;
+}
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+input, button, textarea, select {
+font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+
+header{
+    background: linear-gradient(125deg,  #60dd8e 0%, rgba(24,138,141,1) 100%);
+    color: white;
+    padding: 2rem;
+}
+
+.logo{
+    font-size: 4rem;
+    font-weight: 900;
+    
+}
+
+.nameinfo{
+    margin: 0 auto;
+}
+
+.nameinfo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid white;
+    object-fit: cover;
+}
+
+.nameinfo h1{
+    font-size:40px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about{
+    font-weight: 100;
+    margin: 10px 0;
+    text-align: center;
+}
+.aboutSummary{
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+.philosophy{
+    width: fit-content;
+    margin: 50px auto;
+    text-align: center;
+}
+.philosophy h2{
+text-transform: uppercase;
+text-decoration: underline;
+margin: 10px 0;
+color:rgba(24,138,141,1);
+font-size: clamp(1.2rem, 2.5vw, 2rem); 
+}
+
+.philosophy p{
+    width: 55%;
+    margin: 0 auto;
+    text-align: left;
+    text-transform: uppercase;
+    color:#777;
+}
+
+.academic {
+    margin-top: 50px;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.academic h2{
+    width: fit-content;
+    font-size: clamp(1.2rem, 2.5vw, 2rem); 
+    padding: 5px 15px;
+    background: linear-gradient(125deg,  #60dd8e 0%, rgba(24,138,141,1) 100%);
+    color: white;
+    text-transform:uppercase;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.school{
+  width:50%;
+  margin: 30px auto;
+  background-color: rgba(28, 143, 141, 0.3);
+  border-radius: 15px;
+  padding: 20px 20px;
+  color: #1f928d;
+  box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 0.13);
+}
+.duration{
+    display: inline;
+    font-size: 15px;
+    margin-right: 100px;
+}
+
+.schoolName{
+    display: inline;
+    text-transform: uppercase;
+}
+
+.skills{
+    margin: 30px auto;
+    width: 50%;
+}
+
+.skills h2{
+    width: fit-content;
+    background: linear-gradient(125deg,  #60dd8e 0%, rgba(24,138,141,1) 100%);
+    color: white;
+    text-transform:uppercase;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: clamp(1.2rem, 2.5vw, 2rem); 
+}
+
+.softskills{
+text-align: left;
+}
+
+.softskills ul li{
+    color:#777;
+    text-align: left;
+   
+}
+
+.hardskills{
+    text-align: right;
+}
+
+.hardskills ul li{
+    list-style: none;
+    color:#777;
+}
+
+.skills h4{
+    color:#60dd8e ;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    background: linear-gradient(121deg, #55d08e 0%, #21958d 100%);
+}
+
+footer span{
+    color: rgb(48, 47, 47);
+}
+
+footer div h3{
+    padding: 10px;
+}
+
+footer div p{
+    padding: 2px 0;
+}
+
+
+@media (max-width: 680px){
+
+    .logo{
+        font-size: 3rem;
+    }
+
+    .nameinfo img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .nameinfo h1{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .aboutSummary{
+        width: 100%;
+    }
+    .philosophy{
+        padding: 0 2rem;
+    }
+    .philosophy p{
+        width: 100%;
+    }
+
+    .school{
+        width: 80%;
+        align-items: center;
+    }
+
+    .schoolName{
+        font-size: 1rem;
+    }
+
+    .schoolName{
+        display: block;
+    }
+
+    .skills{
+        width: 100%;
+        padding: 0 2rem ;
+    }
+    .hardskills{
+        margin-top: 1rem;
+    }
+
+    .copyright{
+        margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+}
